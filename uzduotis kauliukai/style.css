@@ -1,0 +1,42 @@
+body {
+  background-color: beige;
+  display: flex;
+}
+
+.dot {
+  background-color: black;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.border {
+  border: 1px solid black;
+  width: 80px;
+  height: 80px;
+}
+
+.flex-container2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dot1 {
+  align-self: flex-end;
+}
+
+.dot2 {
+  align-self: center;
+}
+
+.gap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

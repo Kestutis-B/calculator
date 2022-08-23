@@ -1,0 +1,88 @@
+body {
+  background-color: rgb(74, 16, 80);
+}
+
+.img_logo {
+  width: 100px;
+  padding-left: 30px;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.section1 {
+  align-items: center;
+}
+
+.link {
+  color: white;
+  padding-left: 20px;
+  text-decoration: none;
+}
+
+.btn {
+  background-color: rgb(74, 16, 80);
+  color: white;
+  border-radius: 5px;
+  border-color: white;
+  padding: 10px;
+  margin-left: 20px;
+  text-transform: uppercase;
+}
+
+.btn1 {
+  background-color: white;
+  color: rgb(74, 16, 80);
+  border-radius: 5px;
+  border-color: rgb(74, 16, 80);
+  padding: 10px;
+  margin-left: 20px;
+  text-transform: uppercase;
+}
+
+.btn2 {
+  background-color: rgb(87, 160, 233);
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 20px;
+  text-transform: uppercase;
+}
+
+.div {
+  padding-left: 150px;
+}
+
+.h1 {
+  color: white;
+  font-size: 70px;
+}
+
+.h2 {
+  color: white;
+  font-size: 26px;
+}
+
+.hq {
+  color: rgb(255, 213, 0);
+}
+
+.video {
+  width: 600px;
+}
+
+@media only screen and (max-width: 768px) {
+  .section-container {
+    flex-direction: column;
+  }
+
+  .section2 {
+    flex-grow: 1;
+  }
+  .section3 {
+    flex-grow: 1;
+  }
+}

@@ -1,0 +1,76 @@
+.major {
+  background-color: rgb(17, 17, 78);
+  color: white;
+  padding: 50px;
+}
+
+.line {
+  display: inline-block;
+  border-bottom: 1px solid white;
+  padding-right: 250px;
+}
+
+.line2 {
+  display: inline-block;
+  border-bottom: 1px solid white;
+  padding-right: 50px;
+}
+
+.btn {
+  background-color: rgb(17, 17, 78);
+  color: white;
+  border: 1px solid white;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row;
+}
+
+.flex-small {
+  flex-grow: 1;
+}
+
+.flex-big {
+  flex-grow: 3;
+}
+
+.aliq {
+  background-color: rgb(87, 126, 195);
+  color: white;
+  padding: 20px;
+}
+
+.temp {
+  background-color: blueviolet;
+  color: white;
+  padding: 20px;
+}
+
+.magna {
+  background-color: rgb(222, 101, 101);
+  color: white;
+  padding: 20px;
+}
+
+.ipsum {
+  background-color: rgb(230, 155, 81);
+  color: white;
+  padding: 20px;
+}
+
+.conse {
+  background-color: rgb(141, 141, 183);
+  color: white;
+  padding: 20px;
+}
+
+.etiam {
+  background-color: rgb(124, 194, 124);
+  color: white;
+  padding: 20px;
+}
